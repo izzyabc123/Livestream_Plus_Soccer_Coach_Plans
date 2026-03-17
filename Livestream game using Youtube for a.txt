@@ -1,0 +1,110 @@
+Livestream game using Youtube for administrative staff and team
+- Release liability in application
+
+AI assistant
+- Release liability
+- Well trained model to determine how
+
+----
+Research:
+
+how would we livestream in a mobile app?
+(infrastructure?)
+Youtube? from within the app, API integration?
+permissions for the app?
+authentication for the app?
+$?
+livestream to show up in the app, link to view from the webpage from the mobile app
+(embedded?)
+
+Benefits:
+Removes infrastructure and cost
+vs store and transmit on our own
+
+savings on s3 storage (HOT)?
+
+overall development work
+
+------------------------
+
+Research cont:
+
+Sports driven AI assistant for training and coaching
+
+different trained models for different sports (text to speech, potential for different languages)
+
+boundaries for the AI: suicide/self harm etc, not medical advice from a dr, just suggestions
+
+^^training? where do we get the data? public social media? AI generated criteria
+
+infrastructure: AWS, AI model storage via Triton, app API
+
+---------------------
+no code
+research
+diagrams
+more than 1 soln, weighed
+
+approx. coding development time with a jr developer with no dev ops or AI assistance for coding 
+and setting up infrastructure
+
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+Initial thoughts:
+3 main approaches:
+1) Youtube (deep dive into that next)
+2) Agora
+3) Amazon IVS
+
+
+
+-------Youtube------
+1) use Youtube live api integration:
+
+deep link approach?
+
+*will have to develop 2 apps in parallel, as Android and IOS each approach these problems differently
+**IOS will need custom RTMP (?)
+
+
+
+***Questions Generated...***
+Who is generating these livestreams? A certain set of users? equipment?
+Just so we don't have to write for everyone everyone to be able to broadcast...there are specific 
+YouTube requirements that throttle this option: 1000 subs or phone verification
+
+
+How many livestreams per day? 
+How many minutes of livestream video?
+
+Security layer...how do we heavily restrict who can create an account/start streaming? other holes?
+
+Testing...how many different phones are we testing on? Iphones? Androids?
+
+Livestream chat? Or how are we interacting (if?) live with the viewers?
+
+*what happens if someone logs on and starts posting something crazy?
+
+
+ios/android, basically will have to build 2 apps
+
+*also requires phones to have YT installed (prolly most do?)
+
+**also, how many users are we talking about...**
+
+--------------------
+
+
+
+
+
+
+
+
+
+
+
+
+  
