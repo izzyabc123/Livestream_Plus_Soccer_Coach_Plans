@@ -1,6 +1,7 @@
 # Cursor IDE - ignore most but include plans folder
 .cursor/*
 !.cursor/plans/
+!.cursor/plans/*.md
 
 # OS Files
 .DS_Store
